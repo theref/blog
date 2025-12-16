@@ -1,3 +1,11 @@
-baseURL = 'https://example.org/'
+baseURL = '/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'theref.eth'
+theme = 'archie'
+relativeURLs = true
+canonifyURLs = false
+
+[params]
+  # most themes use params for social links; adjust keys to your theme
+  github = "theref"
+  farcaster = "theref.eth"

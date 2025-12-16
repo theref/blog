@@ -1,0 +1,41 @@
+name: Deploy Hugo to IPFS
+
+on:
+  push:
+    branches:
+        - main
+  pull_request:
+
+permissions:
+  contents: read
+  pull-requests: write
+  statuses: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "latest"
+          extended: true
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy to IPFS
+        uses: ipfs/ipfs-deploy-action@v1
+        id: ipfs
+        with:
+          path-to-deploy: public
+          github-token: ${{ github.token }}
+          storacha-key: ${{ secrets.STORACHA_KEY }}
+          storacha-proof: ${{ secrets.STORACHA_PROOF }}
+
+          # Optional redundancy:
+          # pinata-jwt-token: ${{ secrets.PINATA_JWT_TOKEN }}
