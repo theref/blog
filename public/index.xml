@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>theref.eth</title>
+    <title>Talks on theref.eth</title>
     <link>//localhost:1313/</link>
-    <description>Recent content on theref.eth</description>
+    <description>Recent content in Talks on theref.eth</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 16 Dec 2025 15:31:48 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
-      <link>//localhost:1313/about/</link>
-      <pubDate>Tue, 16 Dec 2025 15:31:48 +0000</pubDate>
-      <guid>//localhost:1313/about/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Contact</title>
       <link>//localhost:1313/contact/</link>
       <pubDate>Tue, 16 Dec 2025 15:31:48 +0000</pubDate>
       <guid>//localhost:1313/contact/</guid>
-      <description></description>
+      <description>&lt;p&gt;Github: &lt;a href=&#34;https://github.com/theref&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/theref&lt;/a&gt; &#xA;Farcaster: &lt;a href=&#34;https://farcaster.xyz/@theref&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://farcaster.xyz/@theref&lt;/a&gt; &lt;/p&gt;</description>
     </item>
     <item>
       <title>Hello World</title>
@@ -35,6 +28,13 @@
       <pubDate>Tue, 16 Dec 2025 15:31:48 +0000</pubDate>
       <guid>//localhost:1313/talks/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>//localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/about/</guid>
+      <description>&lt;p&gt;Hi, I&amp;rsquo;m James.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -37,23 +37,3 @@ jobs:
           storacha-key: ${{ secrets.STORACHA_KEY }}
           storacha-proof: ${{ secrets.STORACHA_PROOF }}
           pinata-jwt-token: ${{ secrets.PINATA_JWT_TOKEN }}
-
-      - name: Publish IPNS name
-        if: github.ref == 'refs/heads/main'
-        env:
-          W3NAME_SIGNING_KEY: ${{ secrets.W3NAME_SIGNING_KEY }}
-        run: |
-          npm install -g w3name
-          node --input-type=module << 'EOF'
-          import * as Name from 'w3name'
-
-          const keyHex = process.env.W3NAME_SIGNING_KEY
-          const keyBytes = Buffer.from(keyHex, 'hex')
-          const name = await Name.from(keyBytes)
-          const cid = '${{ steps.ipfs.outputs.cid }}'
-          const revision = await Name.v0(name, cid)
-          await Name.publish(revision, name.key)
-
-          console.log('IPNS Name:', name.toString())
-          console.log('Updated to CID:', cid)
-          EOF
