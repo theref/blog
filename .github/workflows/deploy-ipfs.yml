@@ -37,3 +37,10 @@ jobs:
           storacha-key: ${{ secrets.STORACHA_KEY }}
           storacha-proof: ${{ secrets.STORACHA_PROOF }}
           pinata-jwt-token: ${{ secrets.PINATA_JWT_TOKEN }}
+
+      - name: Publish IPNS name
+        uses: pawanpaudel93/w3name-action@v0.1
+        if: github.ref == 'refs/heads/main'
+        with:
+          cid: ${{ steps.ipfs.outputs.cid }}
+          signing_key: ${{ secrets.W3NAME_SIGNING_KEY }}
