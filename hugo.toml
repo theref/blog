@@ -1,7 +1,7 @@
 baseURL = '/'
 languageCode = 'en-us'
 title = 'theref.eth'
-theme = 'archie'
+theme = 'hugo-theme-console'
 relativeURLs = true
 canonifyURLs = false
 
@@ -9,3 +9,21 @@ canonifyURLs = false
   # most themes use params for social links; adjust keys to your theme
   github = "theref"
   farcaster = "theref.eth"
+  description = "Web3, governance, cryptography, and high-agency experiments."
+  animateStyle = "animate-fade-up" # optional; theme supports this
+
+[[params.navlinks]]
+  name = "About"
+  url = "/about/"
+
+[[params.navlinks]]
+  name = "Posts"
+  url = "/posts/"
+
+[[params.navlinks]]
+  name = "Talks"
+  url = "/talks/"
+
+[[params.navlinks]]
+  name = "Contact"
+  url = "/contact/"
