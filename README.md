@@ -36,7 +36,8 @@ Automatically deploys to IPFS on every push to `main` via GitHub Actions.
 The workflow:
 1. Builds the Hugo site
 2. Deploys the `public/` directory to IPFS using Storacha
-3. Posts the IPFS hash as a comment on PRs
+3. Pins to Pinata for persistent availability
+4. Posts the IPFS hash as a comment on PRs
 
 ### Required Secrets
 
@@ -73,6 +74,13 @@ Set these in GitHub Settings → Secrets and Variables → Actions → New repos
    Copy the output → set as `STORACHA_PROOF` secret
 
 **Important**: Both secrets must be base64-encoded strings, not file paths!
+
+#### Setting up Pinata (for persistent pinning)
+
+1. Create a free account at [pinata.cloud](https://pinata.cloud)
+2. Go to API Keys → New Key
+3. Give it a name (e.g., "GitHub Actions") with Admin privileges
+4. Copy the JWT token → set as `PINATA_JWT_TOKEN` secret
 
 ## Structure
 

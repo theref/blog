@@ -3,7 +3,7 @@ name: Deploy Hugo to IPFS
 on:
   push:
     branches:
-        - main
+      - main
   pull_request:
 
 permissions:
@@ -36,6 +36,4 @@ jobs:
           github-token: ${{ github.token }}
           storacha-key: ${{ secrets.STORACHA_KEY }}
           storacha-proof: ${{ secrets.STORACHA_PROOF }}
-
-          # Optional redundancy:
-          # pinata-jwt-token: ${{ secrets.PINATA_JWT_TOKEN }}
+          pinata-jwt-token: ${{ secrets.PINATA_JWT_TOKEN }}
