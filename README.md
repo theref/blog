@@ -93,11 +93,11 @@ This creates a permanent IPNS name that you can point your ENS to once, and it w
    mkdir -p /tmp/w3name-keygen && cd /tmp/w3name-keygen
    npm init -y
    npm install w3name
-   node --input-type=module -e "import * as Name from 'w3name'; const n = await Name.create(); console.log('W3NAME_NAME=', n.toString()); console.log('W3NAME_KEY_B64=', Buffer.from(n.key.raw).toString('base64'));"
+   node --input-type=module -e "import * as Name from 'w3name'; const n = await Name.create(); console.log('W3NAME_NAME=', n.toString()); console.log('W3NAME_KEY_HEX=', Buffer.from(n.key.raw).toString('hex'));"
    cd - && rm -rf /tmp/w3name-keygen
    ```
    
-2. Copy the `W3NAME_KEY_B64` value → set as `W3NAME_SIGNING_KEY` secret
+2. Copy the `W3NAME_KEY_HEX` value → set as `W3NAME_SIGNING_KEY` secret
 
 3. **Get your IPNS name** (after first deploy):
    - Check the GitHub Action output for your IPNS name (starts with `k51...`)
