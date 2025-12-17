@@ -27,3 +27,8 @@ canonifyURLs = false
 [[params.navlinks]]
   name = "Contact"
   url = "/contact/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

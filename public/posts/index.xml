@@ -9,10 +9,73 @@
     <lastBuildDate>Tue, 16 Dec 2025 15:31:48 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello World</title>
-      <link>//localhost:1313/posts/hello-world/</link>
+      <title>A Censorship Resistant Blog</title>
+      <link>//localhost:1313/posts/blog-setup/</link>
       <pubDate>Tue, 16 Dec 2025 15:31:48 +0000</pubDate>
-      <guid>//localhost:1313/posts/hello-world/</guid>
+      <guid>//localhost:1313/posts/blog-setup/</guid>
+      <description>&lt;p&gt;A blog that&amp;rsquo;s simple to use, easy to read, but hard to take down.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Example Cyberstate: Public Water Quality</title>
+      <link>//localhost:1313/posts/cyberstate-water-quality/</link>
+      <pubDate>Tue, 16 Dec 2025 15:31:48 +0000</pubDate>
+      <guid>//localhost:1313/posts/cyberstate-water-quality/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>//localhost:1313/posts/annotated-declaration-communities/</link>
+      <pubDate>Tue, 16 Dec 2025 15:31:48 +0000</pubDate>
+      <guid>//localhost:1313/posts/annotated-declaration-communities/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>//localhost:1313/posts/btc-stablecoins/</link>
+      <pubDate>Tue, 16 Dec 2025 15:31:48 +0000</pubDate>
+      <guid>//localhost:1313/posts/btc-stablecoins/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>//localhost:1313/posts/coc-proposal/</link>
+      <pubDate>Tue, 16 Dec 2025 15:31:48 +0000</pubDate>
+      <guid>//localhost:1313/posts/coc-proposal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>//localhost:1313/posts/decentralized-energy/</link>
+      <pubDate>Tue, 16 Dec 2025 15:31:48 +0000</pubDate>
+      <guid>//localhost:1313/posts/decentralized-energy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>//localhost:1313/posts/ownership-is-changing/</link>
+      <pubDate>Tue, 16 Dec 2025 15:31:48 +0000</pubDate>
+      <guid>//localhost:1313/posts/ownership-is-changing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>//localhost:1313/posts/publish-onchain/</link>
+      <pubDate>Tue, 16 Dec 2025 15:31:48 +0000</pubDate>
+      <guid>//localhost:1313/posts/publish-onchain/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>//localhost:1313/posts/set-theory-communities/</link>
+      <pubDate>Tue, 16 Dec 2025 15:31:48 +0000</pubDate>
+      <guid>//localhost:1313/posts/set-theory-communities/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>//localhost:1313/posts/vulnerable-man/</link>
+      <pubDate>Tue, 16 Dec 2025 15:31:48 +0000</pubDate>
+      <guid>//localhost:1313/posts/vulnerable-man/</guid>
       <description></description>
     </item>
   </channel>

@@ -4,4 +4,5 @@ draft = false
 title = 'Contact'
 +++
 Github: https://github.com/theref
-Farcaster: https://farcaster.xyz/@theref
+
+Farcaster: https://farcaster.xyz/theref.eth

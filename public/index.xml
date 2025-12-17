@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Talks on theref.eth</title>
+    <title>theref.eth</title>
     <link>//localhost:1313/</link>
-    <description>Recent content in Talks on theref.eth</description>
+    <description>Recent content on theref.eth</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 16 Dec 2025 15:31:48 +0000</lastBuildDate>
@@ -13,7 +13,7 @@
       <link>//localhost:1313/contact/</link>
       <pubDate>Tue, 16 Dec 2025 15:31:48 +0000</pubDate>
       <guid>//localhost:1313/contact/</guid>
-      <description>&lt;p&gt;Github: &lt;a href=&#34;https://github.com/theref&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/theref&lt;/a&gt; &#xA;Farcaster: &lt;a href=&#34;https://farcaster.xyz/@theref&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://farcaster.xyz/@theref&lt;/a&gt; &lt;/p&gt;</description>
+      <description>&lt;p&gt;Github: &lt;a href=&#34;https://github.com/theref&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/theref&lt;/a&gt; &lt;/p&gt;&#xA;&lt;p&gt;Farcaster: &lt;a href=&#34;https://farcaster.xyz/theref.eth&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://farcaster.xyz/theref.eth&lt;/a&gt; &lt;/p&gt;</description>
     </item>
     <item>
       <title>Hello World</title>
@@ -23,18 +23,18 @@
       <description></description>
     </item>
     <item>
-      <title>Talks</title>
-      <link>//localhost:1313/talks/</link>
-      <pubDate>Tue, 16 Dec 2025 15:31:48 +0000</pubDate>
-      <guid>//localhost:1313/talks/</guid>
-      <description></description>
+      <title>Transaction Privacy and the Politics of Financial Freedom</title>
+      <link>//localhost:1313/talks/2025-11-22/</link>
+      <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/talks/2025-11-22/</guid>
+      <description>&lt;div style=&#34;position:relative;padding-top:56.25%;height:0;overflow:hidden;&#34;&gt;&#xA;  &lt;iframe&#xA;    src=&#34;https://next.frame.io/share/ff8d5307-a7c4-407b-815f-9f47d9dca4c1/view/9397e47f-a6e5-4350-8510-d304433e9748&#34;&#xA;    title=&#34;Talk video&#34;&#xA;    loading=&#34;lazy&#34;&#xA;    allowfullscreen&#xA;    style=&#34;position:absolute;top:0;left:0;width:100%;height:100%;border:0;&#34;&gt;&#xA;  &lt;/iframe&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title>About</title>
       <link>//localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/about/</guid>
-      <description>&lt;p&gt;Hi, I&amp;rsquo;m James.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hi, I&amp;rsquo;m James. I build Threshold Cryptography tools and protocols.&lt;/p&gt;&#xA;&lt;p&gt;I care about privacy, governance, and autonomy: giving people and communities the ability to rely less on centralized authorities and concentrated power.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m trying to get better at building things that directly impact the world, rather than just nice ideas.&lt;/p&gt;&#xA;&lt;p&gt;Here you&amp;rsquo;ll find essays, tutorials, and links to talks I&amp;rsquo;ve given.&lt;/p&gt;&#xA;&lt;p&gt;My bias: I think most people are good, and I&amp;rsquo;m optimistic about the future. I worry about the small percentage of people who crave power. The things they do with that power. And the systems that enable this behaviour.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
