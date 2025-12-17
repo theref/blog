@@ -15,13 +15,13 @@ A blog that's simple to use, easy to read, but hard to take down.
 
 ## The Stack
 
-- **Hugo** for a static site - obvious choice, widely used
-- **IPFS** for content-addressed hosting. Arweave and Swarm are also good options, but IPFS has great tooling for static sites
-- **ENS** for the name.
+- **[Hugo](https://gohugo.io/)** for a static site - obvious choice, widely used
+- **[IPFS](https://ipfs.tech/)** for content-addressed hosting. [Arweave](https://www.arweave.org/) and [Swarm](https://www.ethswarm.org/) are also good options, but IPFS has great tooling for static sites
+- **[ENS](https://ens.domains/)** for the name.
 
 There's nothing particularly innovative or unusual here, that's kind of the point.
 
-There are platforms that do a lot of this work for you (Fleek is a good example), but I don't want to rely on any single vendor.
+There are platforms that do a lot of this work for you ([Fleek](https://fleek.xyz/) is a good example), but I don't want to rely on any single vendor.
 If any piece of the stack changes or disappears, I can move to something else.
 
 ## Hosting and pinning
@@ -30,7 +30,7 @@ In a perfect world I’d run my own IPFS node, pin my own content, and depend on
 
 The point of this blog is to write, not to run infrastructure.
 
-So I’m using external pinning/hosting (Storacha / Pinata). It’s not ideologically pure, but it’s good enough:
+So I’m using external pinning/hosting ([Storacha](https://storacha.network/) / [Pinata](https://www.pinata.cloud/)). It’s not ideologically pure, but it’s good enough:
 
 - If they disappear, my content still exists as CIDs.
 - I can move pinning elsewhere later.
@@ -46,4 +46,4 @@ I haven't found an elegant way to automate this, so I'm just manually updating m
 
 ## If you want this setup
 
-The repo is public, so feel free to fork it and use it for your own blog. The README should be self-explanatory - I wrote it for my future self when I inevitably forget how everything works.
+The [repo is public](https://github.com/theref/blog), so feel free to fork it and use it for your own blog. The README should be self-explanatory - I wrote it for my future self when I inevitably forget how everything works.

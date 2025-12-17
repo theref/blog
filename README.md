@@ -1,6 +1,8 @@
-# Blog
+# theref.eth Blog
 
-A simple Hugo-based blog deployed to IPFS.
+A simple Hugo-based blog deployed to IPFS, accessible at [theref.eth](https://theref.eth.link).
+
+Read about the setup in [A Censorship Resistant Blog](https://theref.eth.link/posts/blog-setup/).
 
 ## Setup
 
@@ -8,7 +10,7 @@ This uses the [Archie theme](https://github.com/athul/archie) as a git submodule
 
 ```bash
 # Clone with submodules
-git clone --recursive <repo-url>
+git clone --recursive https://github.com/theref/blog.git
 
 # Or if already cloned, initialize submodules
 git submodule update --init --recursive
@@ -37,8 +39,9 @@ The workflow:
 1. Builds the Hugo site
 2. Deploys the `public/` directory to IPFS using Storacha
 3. Pins to Pinata for persistent availability
-4. Updates IPNS name with w3name (static address for ENS)
-5. Posts the IPFS hash as a comment on PRs
+4. Posts the IPFS hash as a comment on PRs
+
+**Note:** ENS `contenthash` updates are currently manual. After a deployment, I take the new CID and update the ENS record for `theref.eth`.
 
 ### Required Secrets
 
