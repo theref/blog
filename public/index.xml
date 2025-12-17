@@ -9,6 +9,20 @@
     <lastBuildDate>Tue, 16 Dec 2025 15:31:48 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>A Censorship Resistant Blog</title>
+      <link>//localhost:1313/posts/blog-setup/</link>
+      <pubDate>Tue, 16 Dec 2025 15:31:48 +0000</pubDate>
+      <guid>//localhost:1313/posts/blog-setup/</guid>
+      <description>&lt;p&gt;A blog that&amp;rsquo;s simple to use, easy to read, but hard to take down.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bitcoin and Ethereum are losing to Stablecoins</title>
+      <link>//localhost:1313/posts/btc-stablecoins/</link>
+      <pubDate>Tue, 16 Dec 2025 15:31:48 +0000</pubDate>
+      <guid>//localhost:1313/posts/btc-stablecoins/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;what is a stablecoin compare to btc, eth&lt;/li&gt;&#xA;&lt;li&gt;0.004 BTC makes 0 sense to me and i work in this field&lt;/li&gt;&#xA;&lt;li&gt;5 USDC makes complete sense&lt;/li&gt;&#xA;&lt;li&gt;this is a UX problem&lt;/li&gt;&#xA;&lt;li&gt;do we double quote?&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
       <title>Contact</title>
       <link>//localhost:1313/contact/</link>
       <pubDate>Tue, 16 Dec 2025 15:31:48 +0000</pubDate>
@@ -16,25 +30,81 @@
       <description>&lt;p&gt;Github: &lt;a href=&#34;https://github.com/theref&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/theref&lt;/a&gt; &lt;/p&gt;&#xA;&lt;p&gt;Farcaster: &lt;a href=&#34;https://farcaster.xyz/theref.eth&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://farcaster.xyz/theref.eth&lt;/a&gt; &lt;/p&gt;</description>
     </item>
     <item>
-      <title>Hello World</title>
-      <link>//localhost:1313/posts/hello-world/</link>
+      <title>Example Cyberstate: Public Water Quality</title>
+      <link>//localhost:1313/posts/cyberstate-water-quality/</link>
       <pubDate>Tue, 16 Dec 2025 15:31:48 +0000</pubDate>
-      <guid>//localhost:1313/posts/hello-world/</guid>
-      <description></description>
+      <guid>//localhost:1313/posts/cyberstate-water-quality/</guid>
+      <description>&lt;p&gt;Medium&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>//localhost:1313/posts/annotated-declaration-communities/</link>
+      <pubDate>Tue, 16 Dec 2025 15:31:48 +0000</pubDate>
+      <guid>//localhost:1313/posts/annotated-declaration-communities/</guid>
+      <description>&lt;p&gt;Hard&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>//localhost:1313/posts/coc-proposal/</link>
+      <pubDate>Tue, 16 Dec 2025 15:31:48 +0000</pubDate>
+      <guid>//localhost:1313/posts/coc-proposal/</guid>
+      <description>&lt;p&gt;hard&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>//localhost:1313/posts/decentralized-energy/</link>
+      <pubDate>Tue, 16 Dec 2025 15:31:48 +0000</pubDate>
+      <guid>//localhost:1313/posts/decentralized-energy/</guid>
+      <description>&lt;p&gt;Easy&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>//localhost:1313/posts/ownership-is-changing/</link>
+      <pubDate>Tue, 16 Dec 2025 15:31:48 +0000</pubDate>
+      <guid>//localhost:1313/posts/ownership-is-changing/</guid>
+      <description>&lt;p&gt;Medium&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>//localhost:1313/posts/publish-onchain/</link>
+      <pubDate>Tue, 16 Dec 2025 15:31:48 +0000</pubDate>
+      <guid>//localhost:1313/posts/publish-onchain/</guid>
+      <description>&lt;p&gt;Easy&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>//localhost:1313/posts/set-theory-communities/</link>
+      <pubDate>Tue, 16 Dec 2025 15:31:48 +0000</pubDate>
+      <guid>//localhost:1313/posts/set-theory-communities/</guid>
+      <description>&lt;p&gt;hard&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>//localhost:1313/posts/vulnerable-man/</link>
+      <pubDate>Tue, 16 Dec 2025 15:31:48 +0000</pubDate>
+      <guid>//localhost:1313/posts/vulnerable-man/</guid>
+      <description>&lt;p&gt;very hard (emotional)&lt;/p&gt;</description>
     </item>
     <item>
       <title>Transaction Privacy and the Politics of Financial Freedom</title>
-      <link>//localhost:1313/talks/2025-11-22/</link>
+      <link>//localhost:1313/talks/p2phackerloung2025/</link>
       <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/talks/2025-11-22/</guid>
-      <description>&lt;div style=&#34;position:relative;padding-top:56.25%;height:0;overflow:hidden;&#34;&gt;&#xA;  &lt;iframe&#xA;    src=&#34;https://next.frame.io/share/ff8d5307-a7c4-407b-815f-9f47d9dca4c1/view/9397e47f-a6e5-4350-8510-d304433e9748&#34;&#xA;    title=&#34;Talk video&#34;&#xA;    loading=&#34;lazy&#34;&#xA;    allowfullscreen&#xA;    style=&#34;position:absolute;top:0;left:0;width:100%;height:100%;border:0;&#34;&gt;&#xA;  &lt;/iframe&gt;&#xA;&lt;/div&gt;</description>
+      <guid>//localhost:1313/talks/p2phackerloung2025/</guid>
+      <description>&lt;p&gt;A talk at P2P Privacy Hacker Lounge (Buenos Aires, 2025) on transaction privacy and the politics of financial freedom — &amp;ldquo;the last frontier&amp;rdquo; for decentralised money.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Web3&#39;s Day-One-Decentralized Access Control Plugin</title>
+      <link>//localhost:1313/talks/ethdam2024/</link>
+      <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/talks/ethdam2024/</guid>
+      <description>&lt;p&gt;At ETHDam 2024 I gave a workshop on &lt;a href=&#34;https://taco.build&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TACo&lt;/a&gt; , an end-to-end encrypted, decentralized access control layer - crucial for sensitive data.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
       <link>//localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/about/</guid>
-      <description>&lt;p&gt;Hi, I&amp;rsquo;m James. I build Threshold Cryptography tools and protocols.&lt;/p&gt;&#xA;&lt;p&gt;I care about privacy, governance, and autonomy: giving people and communities the ability to rely less on centralized authorities and concentrated power.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m trying to get better at building things that directly impact the world, rather than just nice ideas.&lt;/p&gt;&#xA;&lt;p&gt;Here you&amp;rsquo;ll find essays, tutorials, and links to talks I&amp;rsquo;ve given.&lt;/p&gt;&#xA;&lt;p&gt;My bias: I think most people are good, and I&amp;rsquo;m optimistic about the future. I worry about the small percentage of people who crave power. The things they do with that power. And the systems that enable this behaviour.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hi, I&amp;rsquo;m James. I build &lt;a href=&#34;https://taco.build&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Threshold Cryptography&lt;/a&gt;  tools and protocols.&lt;/p&gt;&#xA;&lt;p&gt;I care about privacy, governance, and autonomy: giving people and communities the ability to rely less on centralized authorities and concentrated power.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m trying to get better at building things that directly impact the world, rather than just nice ideas.&lt;/p&gt;&#xA;&lt;p&gt;Here you&amp;rsquo;ll find &lt;a href=&#34;./posts&#34;&gt;essays and tutorials&lt;/a&gt; , and links to &lt;a href=&#34;./talks&#34;&gt;talks&lt;/a&gt;  I&amp;rsquo;ve given.&lt;/p&gt;&#xA;&lt;p&gt;My bias: I think most people are good, and I&amp;rsquo;m optimistic about the future. I worry about the small percentage of people who crave power. The things they do with that power. And the systems that enable their behaviour.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
