@@ -1,0 +1,6 @@
+/* Override theme's backtick pseudo-elements on code */
+code::before,
+code::after {
+    content: none !important;
+    display: none !important;
+}

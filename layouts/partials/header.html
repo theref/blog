@@ -1,0 +1,44 @@
+
+{{- /* Farcaster Mini App / Frame v2 Support */ -}}
+{{- $imageURL := "" -}}
+{{- with .Params.image -}}
+  {{- $r := $.Resources.GetMatch . -}}
+  {{- if $r -}}
+    {{- $imageURL = $r.Permalink -}}
+  {{- else -}}
+    {{- $imageURL = . | absURL -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if not $imageURL -}}
+  {{- /* Fallback to site logo or default image if specific page image is missing */ -}}
+  {{- $imageURL = "https://theref.eth.limo/logo.png" | absURL -}}
+{{- end -}}
+
+<script>
+  // Dynamic generation of the meta tag content to ensure URLs are correct
+  const safeTitle = {{ .Title | default .Site.Title }};
+  const safeImage = "{{ $imageURL }}";
+  const safeUrl = "{{ .Permalink }}";
+</script>
+
+{{- /* Construct the JSON object for fc:miniapp */ -}}
+{{- $miniappJSON := dict
+    "version" "1"
+    "imageUrl" $imageURL
+    "button" (dict
+        "title" "Read"
+        "action" (dict
+            "type" "launch_frame"
+            "name" (.Title | default .Site.Title)
+            "url" .Permalink
+            "splashImageUrl" $imageURL
+            "splashBackgroundColor" "#000000"
+        )
+    )
+-}}
+
+<meta name="fc:miniapp" content='{{ $miniappJSON | jsonify }}' />
+<meta name="fc:frame" content='{{ $miniappJSON | jsonify }}' />
+
+<link rel="stylesheet" href="{{ "css/custom.css" | absURL }}">
