@@ -6,7 +6,7 @@ location: "Buenos Aires"
 video: "https://next.frame.io/share/ff8d5307-a7c4-407b-815f-9f47d9dca4c1/view/9397e47f-a6e5-4350-8510-d304433e9748."
 ---
 
-A talk at P2P Privacy Hacker Lounge (Buenos Aires, 2025) on transaction privacy and the politics of financial freedom — "the last frontier" for decentralised money.
+A panel at P2P Privacy Hacker Lounge (Buenos Aires, 2025) on transaction privacy and the politics of financial freedom — "the last frontier" for decentralised money.
 <!--more-->
 
 <div style="position:relative;padding-top:56.25%;height:0;overflow:hidden;">
