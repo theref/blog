@@ -1,5 +1,5 @@
 +++
-date = '2026-106-01T15:31:48Z'
+date = '2026-06-01T15:31:48Z'
 draft = true
 title = 'Improve buying ahouse uk'
 +++
